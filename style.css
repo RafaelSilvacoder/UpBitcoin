@@ -111,3 +111,45 @@ footer {
     line-height: 1.6; /* Melhora a legibilidade do texto */
 }
 
+/*
+ * Media Query para telas pequenas (smartphones, até 768px)
+ */
+@media screen and (max-width: 768px) {
+    /* Estilos para o menu de navegação */
+    .menu {
+        flex-direction: column; /* Coloca os itens em coluna */
+        align-items: flex-start; /* Alinha os itens à esquerda */
+        gap: 10px; /* Reduz o espaçamento */
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column; /* Coloca os botões em coluna */
+        width: 100%; /* Faz a lista ocupar a largura total */
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center; /* Centraliza o texto dos botões */
+    }
+    
+    .menu ul li a {
+        display: block; /* Faz o link ocupar o espaço completo */
+    }
+
+    /* Estilos para a seção de curiosidades */
+    .curiosidades {
+        flex-direction: column; /* Empilha a imagem e o texto */
+        align-items: center; /* Centraliza a imagem e o texto */
+        text-align: center;
+    }
+
+    .curiosidades img {
+        width: 80%; /* Faz a imagem ocupar 80% da largura da tela */
+    }
+    
+    .pmenu {
+        transform: none; /* Remove a transformação vertical */
+    }
+}
