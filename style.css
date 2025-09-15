@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    padding: 20px;
 }
 
 h1 {
@@ -15,9 +16,23 @@ p {
 }
 
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
+
+nav a {
+    color: #ffffff;
+    
+}
+
+p a {
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: brown;
+}
+
 
 /*
  * Estilos da barra de navegação (header)
@@ -109,6 +124,10 @@ footer {
 .curiosidades p {
     flex: 1; /* Permite que o parágrafo ocupe o espaço restante */
     line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+footer a {
+    color: #000000; /* Define a cor para preto */
 }
 
 /*
