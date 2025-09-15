@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    padding: 20px;
+    
 }
 
 h1 {
@@ -32,6 +32,8 @@ p a {
 p a:hover {
     color: brown;
 }
+
+h2 {text-align: center;}
 
 
 /*
