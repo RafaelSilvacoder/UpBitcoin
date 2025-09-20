@@ -110,7 +110,7 @@ footer {
 }
 
 .curiosidades img {
-    width: 250px; /* Define uma largura fixa para a imagem */
+    /*width: 250px; /* Define uma largura fixa para a imagem */
     height: auto; /* Mantém a proporção original da imagem */
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner em telas pequenas */
     object-fit: cover; /* Corta a imagem para preencher a área se necessário, mantendo a proporção */
